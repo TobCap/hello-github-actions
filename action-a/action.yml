@@ -1,0 +1,17 @@
+name: "Hello Action"
+description: "Greet someone"
+author: "who@example.com"
+
+inputs:
+  MY_NAME:
+    description: "test"
+    required: true
+    default: "world"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
